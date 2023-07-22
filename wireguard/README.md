@@ -1,8 +1,6 @@
-# Home Assistant Community Add-on: WireGuard
+# FORK Home Assistant Community Add-on: WireGuard
 
-[![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
-
-[![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
+this is just a fork of the official Wireguard addon. If you'd like to sponsor, please sponsor Frenck
 
 [![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
 
