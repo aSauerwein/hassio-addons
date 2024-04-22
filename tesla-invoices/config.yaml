@@ -15,10 +15,10 @@ options:
   refresh_token: ""
   enable_email_export: False
   email:
-    from: ""
-    to: ""
-    mailserver: ""
-    port: ""
+    from: "sender_mail@example.com"
+    to: "receiver_mail@example.com"
+    mailserver: "mailserver.example.com"
+    port: 587
     user: ""
     password: ""
 schema:
