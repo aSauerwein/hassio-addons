@@ -1,9 +1,9 @@
 name: "Tesla-Invoices"
 description: "Download Tesla Invoices from API and send per mail"
-version: "v.0.2"
+version: "latest"
 slug: "tesla_invoices"
 image: asauerwein/tesla-invoices:latest
-init: false
+init: true
 arch:
   - aarch64
   - amd64
