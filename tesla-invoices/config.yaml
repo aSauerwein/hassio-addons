@@ -26,9 +26,9 @@ schema:
   refresh_token: password
   enable_email_export: bool
   email:
-    from: email
-    to: email
-    mailserver: str
-    port: int
-    user: str
-    password: password
+    from: email?
+    to: email?
+    mailserver: str?
+    port: int?
+    user: str?
+    password: password?
