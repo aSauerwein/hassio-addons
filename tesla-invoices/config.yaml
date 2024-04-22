@@ -10,25 +10,25 @@ arch:
   - armhf
   - armv7
   - i386
-options:
-  access_token: ""
-  refresh_token: ""
-  enable_email_export: False
-  email:
-    from: ""
-    to: ""
-    mailserver: ""
-    port: ""
-    user: ""
-    password: ""
-schema:
-  access_token: password
-  refresh_token: password
-  enable_email_export: bool
-  email:
-    from: email
-    to: email
-    mailserver: str
-    port: int
-    user: str
-    password: password
+# options:
+#   access_token: ""
+#   refresh_token: ""
+#   enable_email_export: False
+#   email:
+#     from: ""
+#     to: ""
+#     mailserver: ""
+#     port: ""
+#     user: ""
+#     password: ""
+# schema:
+#   access_token: password
+#   refresh_token: password
+#   enable_email_export: bool
+#   email:
+#     from: email
+#     to: email
+#     mailserver: str
+#     port: int
+#     user: str
+#     password: password
