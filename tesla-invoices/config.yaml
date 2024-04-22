@@ -1,0 +1,34 @@
+name: "Tesla-Invoices"
+description: "Download Tesla Invoices from API and send per mail"
+version: "v.0.2"
+slug: "tesla_invoices"
+image: asauerwein/tesla-invoices:latest
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+options:
+  access_token:
+  refresh_token:
+  enable_email_export:
+  email:
+    from:
+    to:
+    mailserver:
+    port:
+    user:
+    password:
+schema:
+  access_token: password
+  refresh_token: password
+  enable_email_export: bool
+  email:
+    from: email
+    to: email
+    mailserver: str
+    port: int
+    user: str
+    password: password
