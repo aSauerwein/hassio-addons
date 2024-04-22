@@ -11,16 +11,16 @@ arch:
   - armv7
   - i386
 options:
-  access_token:
-  refresh_token:
-  enable_email_export:
+  access_token: ""
+  refresh_token: ""
+  enable_email_export: False
   email:
-    from:
-    to:
-    mailserver:
-    port:
-    user:
-    password:
+    from: ""
+    to: ""
+    mailserver: ""
+    port: ""
+    user: ""
+    password: ""
 schema:
   access_token: password
   refresh_token: password
