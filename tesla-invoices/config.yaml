@@ -1,8 +1,8 @@
 name: "Tesla-Invoices"
 description: "Download Tesla Invoices from API and send per mail"
-version: "latest"
+version: "v0.3"
 slug: "tesla_invoices"
-image: asauerwein/tesla-invoices:latest
+image: asauerwein/tesla-invoices
 init: true
 arch:
   - aarch64
@@ -26,9 +26,9 @@ schema:
   refresh_token: password
   enable_email_export: bool
   email:
-    from: email
-    to: email
-    mailserver: str
-    port: int
-    user: str
-    password: password
+    from: email?
+    to: email?
+    mailserver: str?
+    port: int?
+    user: str?
+    password: password?
