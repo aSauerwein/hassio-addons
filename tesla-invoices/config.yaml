@@ -1,6 +1,6 @@
 name: "Tesla-Invoices"
 description: "Download Tesla Invoices from API and send per mail"
-version: "v0.4"
+version: "0.5.0"
 slug: "tesla_invoices"
 image: asauerwein/tesla-invoices
 init: true
