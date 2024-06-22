@@ -4,6 +4,9 @@ version: "0.6.0"
 slug: "tesla_invoices"
 image: asauerwein/tesla-invoices
 init: true
+ingress: true
+ingress_port: 9000
+ingress_stream: true
 arch:
   - aarch64
   - amd64
@@ -14,6 +17,7 @@ options:
   access_token: ""
   refresh_token: ""
   enable_email_export: False
+  enable_subscription_invoice: True
   email:
     from: "sender_mail@example.com"
     to: "receiver_mail@example.com"
@@ -25,6 +29,7 @@ schema:
   access_token: password
   refresh_token: password
   enable_email_export: bool
+  enable_subscription_invoice: bool
   email:
     from: email?
     to: email?
