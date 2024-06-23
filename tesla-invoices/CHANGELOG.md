@@ -1,4 +1,8 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
+## 0.6.1
+- add incremental backoff
+- fix invoice date comparison
+- change subscription log message
 
 ## 0.6.0
 
