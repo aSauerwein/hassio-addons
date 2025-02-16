@@ -1,0 +1,12 @@
+name: "Smokeping"
+description: "Good old Smokeping to display ping statistics"
+version: "latest"
+slug: "smokeping"
+image: asauerwein/tesla-invoices
+init: true
+ingress: true
+ingress_port: 80
+ingress_stream: true
+arch:
+  - aarch64
+  - amd64
