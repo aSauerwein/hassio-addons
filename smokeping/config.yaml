@@ -2,7 +2,7 @@ name: "Smokeping"
 description: "Good old Smokeping to display ping statistics"
 version: "latest"
 slug: "smokeping"
-image: asauerwein/tesla-invoices
+image: linuxserver/smokeping
 init: true
 ingress: true
 ingress_port: 80
