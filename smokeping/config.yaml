@@ -6,6 +6,7 @@ image: linuxserver/smokeping
 init: false
 ingress: true
 ingress_port: 80
+ingress_entry: smokeping
 ingress_stream: true
 arch:
   - aarch64
