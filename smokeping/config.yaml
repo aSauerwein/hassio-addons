@@ -7,6 +7,7 @@ init: false
 ingress: true
 ingress_port: 80
 webui: http://[HOST]:[PORT:80]/smokeping
+ingress_entry: /smokeping
 ingress_stream: false
 arch:
   - aarch64
