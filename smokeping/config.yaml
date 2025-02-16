@@ -3,7 +3,7 @@ description: "Good old Smokeping to display ping statistics"
 version: "latest"
 slug: "smokeping"
 image: linuxserver/smokeping
-init: true
+init: false
 ingress: true
 ingress_port: 80
 ingress_stream: true
@@ -12,5 +12,5 @@ arch:
   - amd64
 environment:
   PUID: "1000"
-  GUID: "1000"
+  PGID: "1000"
   TZ: Etc/UTC
