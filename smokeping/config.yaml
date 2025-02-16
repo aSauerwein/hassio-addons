@@ -6,8 +6,8 @@ image: linuxserver/smokeping
 init: false
 ingress: true
 ingress_port: 80
-ingress_entry: smokeping
-ingress_stream: true
+webui: http://localhost:80/smokeping
+ingress_stream: false
 arch:
   - aarch64
   - amd64
