@@ -13,3 +13,6 @@ environment:
   PUID: "1000"
   PGID: "1000"
   TZ: Etc/UTC
+map:
+  type: addon_config
+  read_only: False
