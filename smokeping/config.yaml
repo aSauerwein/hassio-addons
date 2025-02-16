@@ -11,6 +11,6 @@ arch:
   - aarch64
   - amd64
 environment:
-  PUID: 1000
-  GUID: 1000
+  PUID: "1000"
+  GUID: "1000"
   TZ: Etc/UTC
